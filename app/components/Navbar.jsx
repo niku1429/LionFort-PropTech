@@ -13,8 +13,8 @@ export default function Navbar() {
           <Image
             src="/images/Logo.png"
             alt="Unibiz Logo"
-            width={170}
-            height={55}
+            width={210}
+            height={70}
             priority
           />
         </Link>
@@ -26,6 +26,7 @@ export default function Navbar() {
             <li><Link href="/investing">Successful Investing</Link></li>
             <li><Link href="/parenting">Parenting</Link></li>
             <li><Link href="/privacy_and_policy">Privacy Policy</Link></li>
+            <li><Link href="/terms_and_conditions">Contact</Link></li>
           </ul>
         </nav>
 
