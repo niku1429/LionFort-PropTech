@@ -22,7 +22,7 @@ export default function Navbar() {
         {/* Navigation */}
         <nav>
           <ul className="nav-links">
-            <li><Link href="#">About Us</Link></li>
+            <li><Link href="/about">About Us</Link></li>
             <li><Link href="#">Successful Investing</Link></li>
             <li><Link href="#">Parenting</Link></li>
             <li><Link href="#">Privacy Policy</Link></li>
