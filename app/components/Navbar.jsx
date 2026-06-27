@@ -23,7 +23,7 @@ export default function Navbar() {
         <nav>
           <ul className="nav-links">
             <li><Link href="/about">About Us</Link></li>
-            <li><Link href="#">Successful Investing</Link></li>
+            <li><Link href="/investing">Successful Investing</Link></li>
             <li><Link href="/parenting">Parenting</Link></li>
             <li><Link href="#">Privacy Policy</Link></li>
           </ul>

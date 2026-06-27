@@ -612,3 +612,322 @@ justify-content:center;
 }
 
 }
+
+/* ===================================================
+   SUCCESSFUL INVESTING PAGE - HERO
+=================================================== */
+
+.investing-section{
+    padding:80px 0;
+    background:#fff;
+}
+
+.investing-hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:70px;
+    margin-bottom:110px;
+}
+
+.hero-left{
+    flex:1;
+}
+
+.hero-left h2{
+    font-size:54px;
+    line-height:1.15;
+    font-weight:700;
+    margin-bottom:28px;
+    color:#111;
+}
+
+.hero-left h2 span{
+    color:#6F2CF3;
+}
+
+.hero-left p{
+    font-size:18px;
+    line-height:1.9;
+    color:#444;
+    margin-bottom:24px;
+}
+
+.hero-right{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+
+.hero-right img{
+    width:100%;
+    max-width:620px;
+    height:auto;
+    object-fit:contain;
+}
+
+/* ===================================================
+   SECTION TITLE
+=================================================== */
+
+.section-title{
+    font-size:40px;
+    font-weight:700;
+    color:#111;
+    margin-bottom:45px;
+}
+
+/* ===================================================
+   REVIEWS
+=================================================== */
+
+.review-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:28px;
+    margin-bottom:110px;
+}
+
+.review-card{
+    background:#fff;
+    border:1px solid #ECECEC;
+    border-radius:18px;
+    padding:34px;
+    box-shadow:0 10px 30px rgba(0,0,0,.05);
+    transition:.3s;
+    min-height:310px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.review-card:hover{
+    transform:translateY(-8px);
+}
+
+.review-card h3{
+    font-size:30px;
+    font-weight:600;
+    color:#111;
+    margin-bottom:25px;
+    line-height:1.35;
+}
+
+.review-card p{
+    font-size:17px;
+    color:#555;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+
+.review-user{
+    display:flex;
+    align-items:center;
+    gap:16px;
+    margin-top:auto;
+}
+
+.review-user img{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+}
+
+.review-user h4{
+    font-size:18px;
+    margin-bottom:4px;
+    font-weight:600;
+    color:#111;
+}
+
+.review-user span{
+    color:#777;
+    font-size:15px;
+}
+
+/* ===================================================
+   COURSES SECTION
+=================================================== */
+
+.course-row{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:70px;
+    margin-bottom:100px;
+}
+
+.course-row.reverse{
+    flex-direction:row-reverse;
+}
+
+.course-image{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+
+.course-image img{
+    width:100%;
+    max-width:600px;
+    height:auto;
+    border-radius:18px;
+    display:block;
+}
+
+.course-content{
+    flex:1;
+}
+
+.course-content h3{
+    font-size:34px;
+    font-weight:700;
+    color:#111;
+    margin-bottom:24px;
+}
+
+.course-content p{
+    font-size:18px;
+    line-height:1.9;
+    color:#555;
+    margin-bottom:35px;
+}
+
+.course-content button{
+    width:260px;
+    height:56px;
+    border:none;
+    border-radius:8px;
+    background:#6F2CF3;
+    color:#fff;
+    font-size:18px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.course-content button:hover{
+    background:#5825dd;
+    transform:translateY(-2px);
+}
+
+/* ===================================================
+   TABLET RESPONSIVE
+=================================================== */
+
+@media (max-width:992px){
+
+.investing-hero{
+    flex-direction:column-reverse;
+    text-align:center;
+}
+
+.hero-left h2{
+    font-size:42px;
+}
+
+.hero-left p{
+    font-size:17px;
+}
+
+.section-title{
+    font-size:34px;
+    text-align:center;
+}
+
+.review-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.course-row,
+.course-row.reverse{
+    flex-direction:column;
+    text-align:center;
+    gap:40px;
+}
+
+.course-content button{
+    margin:auto;
+}
+
+}
+
+/* ===================================================
+   MOBILE RESPONSIVE
+=================================================== */
+
+@media (max-width:768px){
+
+.investing-section{
+    padding:60px 0;
+}
+
+.hero-left h2{
+    font-size:34px;
+}
+
+.hero-left p{
+    font-size:16px;
+    line-height:1.8;
+}
+
+.section-title{
+    font-size:28px;
+    margin-bottom:30px;
+}
+
+.review-grid{
+    grid-template-columns:1fr;
+    gap:22px;
+}
+
+.review-card{
+    padding:24px;
+    min-height:auto;
+}
+
+.review-card h3{
+    font-size:22px;
+}
+
+.review-card p{
+    font-size:15px;
+    margin-bottom:25px;
+}
+
+.review-user img{
+    width:48px;
+    height:48px;
+}
+
+.review-user h4{
+    font-size:16px;
+}
+
+.review-user span{
+    font-size:14px;
+}
+
+.course-row{
+    margin-bottom:70px;
+}
+
+.course-content h3{
+    font-size:28px;
+}
+
+.course-content p{
+    font-size:16px;
+}
+
+.course-content button{
+    width:100%;
+    height:52px;
+    font-size:17px;
+}
+
+.course-image img{
+    max-width:100%;
+}
+
+}
