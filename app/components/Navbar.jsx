@@ -1,23 +1,37 @@
 "use client";
 
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
-import { HiOutlineSun } from "react-icons/hi2";
+
+import {
+  HiOutlineSun,
+  HiOutlineMoon,
+} from "react-icons/hi2";
+
+import { useTheme } from "./CTA";
 
 export default function Navbar() {
+  const { dark, setDark } = useTheme();
+
   return (
     <header className="navbar">
       <div className="container navbar-container">
         {/* Logo */}
         <Link href="/" className="logo">
-          <Image
-            src="/images/Logo.png"
-            alt="Unibiz Logo"
-            width={210}
-            height={70}
-            priority
-          />
-        </Link>
+  <Image
+    src={
+      dark
+        ? "/images/Unibiz.png"
+        : "/images/Logo.png"
+    }
+    alt="Logo"
+    width={210}
+    height={70}
+    priority
+  />
+</Link>
 
         {/* Navigation */}
         <nav>
@@ -31,9 +45,12 @@ export default function Navbar() {
         </nav>
 
         {/* Theme Icon */}
-        <button className="theme-btn">
-          <HiOutlineSun />
-        </button>
+        <button
+  className="theme-btn"
+  onClick={() => setDark(!dark)}
+>
+  {dark ? <HiOutlineMoon /> : <HiOutlineSun />}
+</button>
       </div>
     </header>
   );

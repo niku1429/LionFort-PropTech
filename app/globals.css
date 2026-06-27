@@ -1153,3 +1153,69 @@ font-size:30px;
 }
 
 }
+
+/* ===========================
+        DARK MODE
+=========================== */
+
+body{
+    transition:.35s;
+}
+
+body.dark{
+    background:#12091D;
+    color:#fff;
+}
+
+body.dark .navbar{
+    background:#12091D;
+    border-bottom:1px solid #25163A;
+}
+
+body.dark .nav-links a{
+    color:#fff;
+}
+
+body.dark .theme-btn{
+    color:#fff;
+}
+
+body.dark .hero,
+body.dark .about-section,
+body.dark .why-section,
+body.dark .parenting-section,
+body.dark .investing-section,
+body.dark .privacy-section{
+    background:#12091D;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark h3{
+    color:white;
+}
+
+body.dark p{
+    color:#d4d4d4;
+}
+
+body.dark .why-card,
+body.dark .review-card,
+body.dark .course-card{
+    background:#1E1230;
+    border:1px solid #37224E;
+}
+
+body.dark .footer{
+    background:#1A1128;
+}
+
+body.dark .footer h3,
+body.dark .footer p,
+body.dark .footer a{
+    color:white;
+}
+
+body.dark .footer-bottom{
+    color:#ddd;
+}
