@@ -931,3 +931,71 @@ justify-content:center;
 }
 
 }
+
+/* ==========================================
+   PRIVACY POLICY
+========================================== */
+
+.privacy-section{
+    padding:90px 0 120px;
+    min-height:500px;
+}
+
+.privacy-content{
+    max-width:1150px;
+    margin:auto;
+}
+
+.privacy-content p{
+    color:#ff2d2d;
+    font-size:20px;
+    line-height:1.9;
+    margin-bottom:55px;
+}
+
+.privacy-file{
+    display:inline-block;
+    transition:.3s;
+}
+
+.privacy-file:hover{
+    transform:scale(1.04);
+}
+
+.privacy-file img{
+    width:220px;
+    height:auto;
+}
+
+/* ================= Tablet ================= */
+
+@media(max-width:992px){
+
+.privacy-section{
+    padding:70px 0;
+}
+
+.privacy-content p{
+    font-size:18px;
+}
+
+}
+
+/* ================= Mobile ================= */
+
+@media(max-width:768px){
+
+.privacy-section{
+    padding:50px 0;
+}
+
+.privacy-content p{
+    font-size:16px;
+    line-height:1.8;
+}
+
+.privacy-file img{
+    width:170px;
+}
+
+}

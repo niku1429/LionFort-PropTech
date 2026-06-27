@@ -25,7 +25,7 @@ export default function Navbar() {
             <li><Link href="/about">About Us</Link></li>
             <li><Link href="/investing">Successful Investing</Link></li>
             <li><Link href="/parenting">Parenting</Link></li>
-            <li><Link href="#">Privacy Policy</Link></li>
+            <li><Link href="/privacy_and_policy">Privacy Policy</Link></li>
           </ul>
         </nav>
 
