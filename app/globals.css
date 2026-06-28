@@ -807,15 +807,27 @@ body.dark .lead-box button {
   .hero-right,
   .course-content,
   .course-image,
-  .parenting-content,
-  .parenting-image,
   .course-row.reverse .course-content,
   .course-row.reverse .course-image,
   .parenting-row.reverse .parenting-content,
   .parenting-row.reverse .parenting-image {
     order: initial;
   }
+.parenting-row .parenting-image{
+    order:1;
+}
 
+.parenting-row .parenting-content{
+    order:2;
+}
+
+.parenting-row.reverse .parenting-image{
+    order:1;
+}
+
+.parenting-row.reverse .parenting-content{
+    order:2;
+}
   .hero-content {
     order: 1;
   }
@@ -948,6 +960,14 @@ body.dark .lead-box button {
   .course-row,
   .course-row.reverse {
     flex-direction: column-reverse;
+  }
+
+  .parenting-row.reverse .parenting-image {
+    order: 1;
+  }
+
+  .parenting-row.reverse .parenting-content {
+    order: 2;
   }
 
   .course-content h3 {
