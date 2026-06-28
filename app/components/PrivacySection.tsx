@@ -4,11 +4,9 @@ export default function PrivacySection() {
   return (
     <section className="privacy-section">
       <div className="container">
-
         <div className="privacy-content">
-
           <p>
-            <strong>Disclaimer – </strong>
+            <strong>Disclaimer - </strong>
             The main purpose of this website is to make people aware about
             different investment and trading avenues available to them, tools
             that can be used, etc. However, the success of all the strategies
@@ -32,9 +30,7 @@ export default function PrivacySection() {
               height={60}
             />
           </a>
-
         </div>
-
       </div>
     </section>
   );

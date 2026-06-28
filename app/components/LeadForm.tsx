@@ -29,14 +29,14 @@ export default function LeadForm() {
     const data = await res.json();
 
     if (data.success) {
-      setMessage("✅ Lead submitted successfully.");
+      setMessage("Lead submitted successfully.");
       setForm({
         name: "",
         phone: "",
         email: "",
       });
     } else {
-      setMessage("❌ Something went wrong.");
+      setMessage("Something went wrong.");
     }
 
     setLoading(false);
@@ -52,7 +52,7 @@ export default function LeadForm() {
           <h2>Get Free Guidance</h2>
 
           <p>
-            Fill in your details and we'll contact you soon.
+            Fill in your details and we&apos;ll contact you soon.
           </p>
 
           <form onSubmit={handleSubmit}>
@@ -102,3 +102,4 @@ export default function LeadForm() {
     </section>
   );
 }
+

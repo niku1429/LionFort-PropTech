@@ -1,7 +1,13 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 
+import { useTheme } from "./CTA";
+
 export default function Footer() {
+  const { dark } = useTheme();
+
   return (
     <footer className="footer">
 
@@ -35,8 +41,8 @@ export default function Footer() {
 
         <div className="footer-logo">
           <Image
-            src="/images/logo.png"
-            alt="Logo"
+            src={dark ? "/images/Unibiz.png" : "/images/Logo.png"}
+            alt="Unibiz"
             width={260}
             height={80}
           />

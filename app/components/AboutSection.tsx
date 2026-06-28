@@ -4,15 +4,10 @@ export default function AboutSection() {
   return (
     <section className="about-section">
       <div className="container">
-
-        {/* Top Section */}
-
         <div className="about-top">
-
           <div className="about-content">
-
             <h2>
-              Meet Your Guide –
+              Meet Your Guide -
               <br />
               <span>Dr. Bhooshan Shanbhag</span>
             </h2>
@@ -20,7 +15,7 @@ export default function AboutSection() {
             <p>
               A dedicated platform where the art of parenting meets the science
               of investing. We believe that building a prosperous future
-              requires a holistic approach—nurturing the next generation’s
+              requires a holistic approach--nurturing the next generation&apos;s
               potential while simultaneously securing the financial foundation
               that supports their dreams. Whether you are looking to decode the
               complexities of the financial markets or seeking practical
@@ -30,7 +25,6 @@ export default function AboutSection() {
               families to grow both their portfolios and their legacies with
               purpose and confidence.
             </p>
-
           </div>
 
           <div className="about-image">
@@ -42,15 +36,11 @@ export default function AboutSection() {
               priority
             />
           </div>
-
         </div>
 
-        {/* Bottom Content */}
-
         <div className="about-bottom">
-
           <p>
-            Welcome to bhooshanshanbhag.com – The Trading Classroom, your
+            Welcome to bhooshanshanbhag.com - The Trading Classroom, your
             comprehensive guide to the A to Z of Financial Markets. Led by
             Dr. Bhooshan Shanbhag, a dually certified CMT and CFTe, we bridge
             the gap between institutional-grade technical analysis and the
@@ -61,18 +51,17 @@ export default function AboutSection() {
 
           <p>
             At The Trading Classroom, we believe that financial literacy is the
-            ultimate empowerment. Founded by Dr. Bhooshan Shanbhag, our
-            approach combines decades of academic rigor with real-world market
+            ultimate empowerment. Founded by Dr. Bhooshan Shanbhag, our approach
+            combines decades of academic rigor with real-world market
             experience. Whether we are deconstructing the nuances of REITs or
-            guiding parents through “The Gardener and The Architect” philosophy
-            of potential, we are dedicated to fostering growth. We don’t just
+            guiding parents through &quot;The Gardener and The Architect&quot; philosophy
+            of potential, we are dedicated to fostering growth. We don&apos;t just
             teach markets; we nurture the discipline and mindset required for
             lifelong success.
           </p>
-
         </div>
-
       </div>
     </section>
   );
 }
+
