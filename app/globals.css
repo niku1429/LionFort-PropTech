@@ -670,6 +670,41 @@ body.dark .lead-box button {
   }
 }
 
+@media (max-width: 1024px) {
+  .hero-container,
+  .about-top,
+  .investing-hero {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .hero-content,
+  .about-content,
+  .hero-left {
+    order: 1;
+    max-width: 700px;
+  }
+
+  .hero-image,
+  .about-image,
+  .hero-right {
+    order: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-image img,
+  .about-image img,
+  .hero-right img {
+    width: 100%;
+    max-width: 550px;   
+    height: auto;
+  }
+}
+
 @media (max-width: 1180px) {
   .container {
     width: min(100% - 80px, 980px);
@@ -680,7 +715,8 @@ body.dark .lead-box button {
   }
 
   .logo img {
-    width: 104px;
+    width: auto;
+    height: 40px;
   }
 
   .nav-links {
@@ -740,7 +776,8 @@ body.dark .lead-box button {
   }
 
   .logo img {
-    width: 72px;
+    width: auto;
+    height: 32px;
   }
 
   .navbar nav {
@@ -1029,7 +1066,8 @@ body.dark .lead-box button {
   }
 
   .footer-logo img {
-    width: 92px;
+    width: auto;
+    height: 32px; 
   }
 
   .footer-column h3 {
