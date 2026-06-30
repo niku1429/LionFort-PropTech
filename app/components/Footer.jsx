@@ -41,7 +41,7 @@ export default function Footer() {
 
         <div className="footer-logo">
           <Image
-            src={dark ? "/images/Unibiz.png" : "/images/Logo.png"}
+            src={dark ? "/images/White-Logo.png" : "/images/Black-Logo.png"}
             alt="Unibiz"
             width={260}
             height={80}

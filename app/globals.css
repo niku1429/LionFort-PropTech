@@ -87,8 +87,8 @@ body.dark .navbar {
 }
 
 .logo img {
-  width: 132px;
-  height: auto;
+  width: auto;
+  height: 40px;
   display: block;
 }
 
@@ -569,8 +569,8 @@ body.dark .footer {
 }
 
 .footer-logo img {
-  width: 210px;
-  height: auto;
+  width: auto;
+  height: 40px;
   display: block;
 }
 

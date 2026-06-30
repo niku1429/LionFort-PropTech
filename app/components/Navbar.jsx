@@ -34,7 +34,7 @@ export default function Navbar() {
       <div className="container navbar-container">
         <Link href="/" className="logo" onClick={() => setOpen(false)}>
           <Image
-            src={dark ? "/images/Unibiz.png" : "/images/Logo.png"}
+            src={dark ? "/images/White-Logo.png" : "/images/Black-Logo.png"}
             alt="Unibiz"
             width={210}
             height={70}

@@ -17,7 +17,6 @@ export default function Hero() {
         <div className="hero-content">
           <h1>
             Welcome  
-            <br />
             to bhooshanshanbhag.com
           </h1>
 
